@@ -1,0 +1,128 @@
+
+
+nav {
+	overflow: hidden;
+	height: 64px;
+}
+
+nav p {
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	float: left;
+}
+
+nav .brand-logo i{
+	font-size: 24px;
+	display: inline-block;
+	float: left;
+}
+
+nav ul li i {
+	font-size: 24px;
+}
+.header h1 {
+	display: inline;
+	color: white;
+	font-size: 20px;
+	line-height: 44px;
+	white-space:nowrap;
+}
+
+.header {
+	background: #70BDB7;
+	height: 44px;
+	margin-bottom: 10px;
+
+}
+
+.header .button {
+	float: right;
+	height: 100%;
+}
+
+html, body {
+	/*height: 100%;*/
+	font-family: "Roboto";
+	background: #fdfdfd;
+	background: #FF8F00;
+}
+
+#marking_wrapper {
+	background: #10B2D5;
+	background: #FF8F00;
+	min-height: 100%;
+	padding: 0 10px;
+}
+
+#marking_wrapper .marking_login {
+	background: white;
+	padding: 40px 30px;
+	width: 100%;
+	max-width: 330px;
+	margin: 20px auto;
+	border-radius: 3px;
+}
+
+.login_logo {
+	background: url(../img/login_logo.png) center center no-repeat;
+	background-size: contain;
+	width: 180px;
+	height: 180px;
+	margin: 20px auto;
+}
+
+.login_title {
+	background: url(../img/login_title.png) center center no-repeat;
+	background-size: contain;
+	width: 207px;
+	height: 73px;
+	margin: 0 auto;
+}
+
+.login_btn {
+	border: 0;
+	background: #DA2D39;
+	color: white;
+	height: 52px;
+	font-size: .9rem;
+	-webkit-appearance:none;
+}
+
+/*
+.marking_login input:not(.login_btn) {
+	margin-bottom: 35px;
+	padding: 25px 20px;
+	border-radius: 3px;
+}*/
+
+.marking_login .btn {
+	width: 100%;
+}
+
+.logout {
+	background: #EE5C5F;
+}
+
+#submit_score {
+	float: right;
+}
+
+@media all and (max-width: 460px) {
+	#marking_wrapper .marking_login {
+		padding: 40px 20px;
+	}
+}
+
+table tbody tr:first-child td {
+	background: #F3A037;
+}
+
+table.all tbody tr:nth-child(2) td {
+	background: #F6D36A;
+}
+
+table.all tbody tr:nth-child(3) td {
+	background: #F9F69C;
+}
+
