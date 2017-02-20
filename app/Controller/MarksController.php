@@ -133,7 +133,7 @@ class MarksController extends AppController {
 				// 	"creativity" => 1
 				// );
 
-				$this->request->data["Mark"]["overall"] = $mydata["m1"] + $mydata["m2"] + $mydata["m3"] + $mydata["m4"]+ $mydata["m5"];
+				$this->request->data["Mark"]["overall"] = $mydata["m1"] + $mydata["m2"] + $mydata["m3"] + $mydata["m4"];
 				// var_dump($this->request->data);
 				$marks = $mydata["m1"].','.$mydata["m2"].','.$mydata["m3"].','.$mydata["m4"].','.$mydata["m5"];
 				

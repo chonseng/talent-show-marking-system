@@ -37,10 +37,9 @@
 					<td class="large-1 medium-1 small-1" style="text-align=center">Rank</td>
 					<td class="large-1 medium-1 small-1" id="names">No</td>
 					<td class="large-1 medium-1 small-1" >Use of English(30%)</td>
-					<td class="large-1 medium-1 small-1" >Overall Performance(30%)</td>
+					<td class="large-1 medium-1 small-1" >Overall Performance & Organization(35%)</td>
 					<td class="large-1 medium-1 small-1" >Originality & Creatvity(20%)</td>
-					<td class="large-1 medium-1 small-1" >Audience Response(10%)</td>
-					<td class="large-1 medium-1 small-1" >Organization & Coordination(10%)</td>
+					<td class="large-1 medium-1 small-1" >Audience Response(15%)</td>
 					<td class="large-6 medium-6 small-6" >Total(100%)</td>
 				</tr>
 			</thead>
@@ -64,7 +63,6 @@
 					<td><div><?= $mark["m2"] ?></div></td>
 					<td><div><?= $mark["m3"] ?></div></td>
 					<td><div><?= $mark["m4"] ?></div></td>
-					<td><div><?= $mark["m5"] ?></div></td>
 					<td><div style="width:<?= $mark["overall"]/$users_amount?>%" id="singer<?= $key+1 ?>" class="bar"><?= $mark["overall"]?>&nbsp;(<?= round($mark["overall"]/$users_amount,2) ?>)</div></td>
 				</tr>
 				<?php endforeach ?>

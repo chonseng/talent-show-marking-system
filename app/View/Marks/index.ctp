@@ -140,10 +140,10 @@
 							</div>
 			     </li>
 			     <li class="collection-item">
-							<label>Overall Performance (1-30)</label>
+							<label>Overall Performance & Organization (1-35)</label>
 							<div class="row">
 							  <div class="small-10 medium-11 columns">
-							    <div id="m2_slider" class="range-slider radius" data-slider data-options="display_selector: #sliderOutput2; start: 1; end: 30;">
+							    <div id="m2_slider" class="range-slider radius" data-slider data-options="display_selector: #sliderOutput2; start: 1; end: 35;">
 							      <span class="range-slider-handle" role="slider" tabindex="0"></span>
 							      <span class="range-slider-active-segment"></span>
 							      <input type="hidden" name="Mark[m2]">
@@ -172,10 +172,10 @@
 
 			     </li>
 			     <li class="collection-item">
-							<label>Audience Response (1-10)</label>
+							<label>Audience Response (1-15)</label>
 							<div class="row">
 							  <div class="small-10 medium-11 columns">
-							    <div id="m4_slider"  class="range-slider radius" data-slider data-options="display_selector: #sliderOutput4; start: 1; end: 10;">
+							    <div id="m4_slider"  class="range-slider radius" data-slider data-options="display_selector: #sliderOutput4; start: 1; end: 15;">
 							      <span class="range-slider-handle" role="slider" tabindex="0"></span>
 							      <span class="range-slider-active-segment"></span>
 							      <input type="hidden" name="Mark[m4]">
@@ -187,11 +187,11 @@
 							</div>
 
 			     </li>
-	          <li class="collection-item">
-	     				<label>Organization & Coordination (1-10)</label>
+	          <li class="collection-item" style="display:none;">
+	     				<label>Singing (if any)</label>
 	     				<div class="row">
 	     				  <div class="small-10 medium-11 columns">
-	     				    <div id="m5_slider"  class="range-slider radius" data-slider data-options="display_selector: #sliderOutput5; start: 1; end: 10;">
+	     				    <div id="m5_slider"  class="range-slider radius" data-slider data-options="display_selector: #sliderOutput5; start: 0; end: 10;">
 	     				      <span class="range-slider-handle" role="slider" tabindex="0"></span>
 	     				      <span class="range-slider-active-segment"></span>
 	     				      <input type="hidden" name="Mark[m5]">
@@ -222,7 +222,7 @@ $(document).ready(function(){
 		$("#m2_slider").foundation('slider', 'set_value', 1);
 		$("#m3_slider").foundation('slider', 'set_value', 1);
 		$("#m4_slider").foundation('slider', 'set_value', 1);
-		$("#m5_slider").foundation('slider', 'set_value', 1);
+		$("#m5_slider").foundation('slider', 'set_value', 0);
 	}
 
 	initSlider();
